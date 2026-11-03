@@ -1,0 +1,26 @@
+{
+  "name": "mobile-harness-chromium-fix",
+  "version": "1.0.0",
+  "description": "Working Chromium + Playwright/Puppeteer setup for Mobile Harness (Ubuntu 20.04 PRoot ARM64)",
+  "main": "examples/playwright-example.js",
+  "scripts": {
+    "install-chromium": "bash scripts/install-chromium.sh",
+    "test-playwright": "node examples/playwright-example.js",
+    "test-puppeteer": "node examples/puppeteer-example.js"
+  },
+  "keywords": [
+    "mobile-harness",
+    "proot",
+    "arm64",
+    "chromium",
+    "playwright",
+    "puppeteer",
+    "android"
+  ],
+  "author": "Mobile Harness user",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "1.40.0",
+    "puppeteer": "^21.0.0"
+  }
+}
